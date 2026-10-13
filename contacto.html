@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoDrive | Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <h1>Auto<span>Drive</span></h1>
+        </div>
+        <nav class="nav">
+            <a href="index.html">Catálogo</a>
+            <a href="Compras.html">Reservas</a>
+            <a href="checkout.html">Separar Auto</a>
+            <a href="contacto.html" class="active">Contacto</a>
+            <a href="registro.html">Registro</a>
+        </nav>
+    </header>
+
+    <main class="container page-content">
+        <h2>Contáctanos</h2>
+        <p>¿Tienes dudas sobre algún modelo? Déjanos tu mensaje.</p>
+
+        <form class="form-card" onsubmit="event.preventDefault(); alert('Mensaje enviado correctamente');">
+            <div class="form-group">
+                <label>Nombre Completo:</label>
+                <input type="text" required>
+            </div>
+            <div class="form-group">
+                <label>Teléfono de Contacto:</label>
+                <input type="tel" required>
+            </div>
+            <div class="form-group">
+                <label>Correo Electrónico:</label>
+                <input type="email" required>
+            </div>
+            <div class="form-group">
+                <label>Mensaje o Consulta:</label>
+                <textarea rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AutoDrive - Universidad de Ciencias y Humanidades (UCH)</p>
+    </footer>
+
+</body>
+</html>

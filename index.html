@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi tienda online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>Nippon<span>AUTO</span></h1>
+        </div>
+        <ul>
+            <a href="index.html">Catálogo</a>
+            <a href="Compras.html">Reservas</a>
+            <a href="checkout.html">Separar Auto</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="registro.html">Registro</a>
+        </ul>
+    </header>
+    <section class="hero">
+        <h2>Encuentra el auto que mas deseas a un precio accesible</h2>
+        <p>Vehiculos Nuevos y seminuevos garantizados</p>
+    </section>
+    <main class="container">
+    <aside class="filters">
+    <h3>Buscar Autos</h3>
+    
+    <div class="filter-group">
+        <label for="marca">Marca:</label>
+        <select id="marca">
+            <option value="todas">Todas las marcas</option>
+            <option value="toyota">Toyota</option>
+            <option value="suzuki">Suzuki</option>
+            <option value="nissan">Nissan</option>
+            <option value="subaru">Subaru</option>
+            <option value="honda">Honda</option>
+            <option value="chevrolet">Chevrolet</option>
+            <option value="audi">Audi</option>
+        </select>
+    </div>
+
+    <div class="filter-group">
+        <label for="tipo">Tipo de Vehículo:</label>
+        <select id="tipo">
+            <option value="todos">Todos los tipos</option>
+            <option value="sedan">Sedán</option>
+            <option value="hatchback">Hatchback / Compacto</option>
+            <option value="suv">SUV / Camioneta</option>
+            <option value="deportivo">Deportivo / Coupé</option>
+        </select>
+    </div>
+
+    <div class="filter-group">
+        <label for="transmision">Transmisión:</label>
+        <select id="transmision">
+            <option value="todas">Todas</option>
+            <option value="mecanico">Mecánico</option>
+            <option value="automatico">Automático</option>
+        </select>
+    </div>
+
+    <button class="btn btn-filter">Filtrar Vehículos</button>
+</aside>
+
+            <section class="catalogo">
+               <h2>Nuestros Vehículos</h2>
+            <div class="product-grid">
+        <!---Chevrolet Corvette--->
+
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=400" alt="Auto 1">
+                    <div class="card-body">
+                        <h3>Chevrolet Corvette</h3>
+                        <p class="specs">2023 • 15,000 km • Automático</p>
+                        <p class="price">$ 65,000</p>
+                        <button class="btn">Reservar Vehículo</button>
+                    </div>
+                </div>
+        <!---AUDI A4 SEDAN-->
+
+            <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=400" alt="Auto 2">
+                    <div class="card-body">
+                        <h3>Audi A4 Sedan</h3>
+                        <p class="specs">2022 • 28,000 km • Automático</p>
+                        <p class="price">$ 38,500</p>
+                        <button class="btn">Reservar Vehículo</button>
+                    </div>
+                </div>
+        <!-----JEEP WRANGLER SUV-->
+           <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=400" alt="Auto 3">
+                    <div class="card-body">
+                        <h3>Jeep Wrangler SUV</h3>
+                        <p class="specs">2021 • 42,000 km • Mecánico</p>
+                        <p class="price">$ 41,000</p>
+                        <button class="btn">Reservar Vehículo</button>
+                    </div>
+                </div>
+        <!----NISSAN VERSA-->
+            <div class="product-card">
+                    <img src="https://www.peruautos.pe/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-22-at-11.08.27-AM.jpeg" alt="Auto 4">
+                     <div class="card-body">
+                          <h3>Nissan Versa</h3>
+                          <p class="specs">2016 ♦ 110,000 ♦ Automatico</p>
+                          <p class="price">$8,000</p>
+                          <button class="btn">Reservar Vehiculo</button>                
+                </div>
+            </div>
+        <!------TOYOTA HILUX-->
+               <div class="product-card">
+                    <img src="https://i.ytimg.com/vi/HytdNsKX-Lc/maxresdefault.jpg" alt="Auto 4">
+                     <div class="card-body">
+                          <h3>Toyota Hilux</h3>
+                          <p class="specs">2018 ♦ 158,000 km ♦ Mecanico</p>
+                          <p class="price">$31,045.61</p>
+                          <button class="btn">Reservar Vehiculo</button>                
+                </div>
+            </div>
+        <!---TOYOYA PROBOX-->
+             <div class="product-card">
+                    <img src="https://cdn.neoauto.com/elements/autos_usados/960x584/356321/858902_20151104123924.jpg" alt="Auto 4">
+                     <div class="card-body">
+                          <h3>Toyota probox</h3>
+                          <p class="specs">2008 ♦ 100,000 km ♦ Mecanico</p>
+                          <p class="price">$9,500</p>
+                          <button class="btn">Reservar Vehiculo</button>                
+                </div>
+            </div>
+            
+        <!-- Toyota Yaris -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1590362891991-f776e747a588?w=400" alt="Toyota Yaris">
+                <div class="card-body">
+                    <h3>Toyota Yaris</h3>
+                    <p class="specs">2023 • 18,000 km • Mecánico</p>
+                    <p class="price">$ 16,500</p>
+                    <button class="btn">Reservar Vehículo</button>
+                </div>
+            </div>
+        <!-----Toyota CAMRY-->
+            <div class="product-card">
+            <img src="https://img.linemedia.com/img/s/car-Toyota-Camry---1783679143637377637_big--26061011265261443800.jpg" alt="Toyota Yaris">
+            <div class="card-body">
+                <h3>Toyota Camry</h3>
+                <p class="specs">2014 • 150,000 km • Mecánico</p>
+                <p class="price">$ 12,000</p>
+                <button class="btn">Reservar Vehículo</button>
+            </div>
+        </div>
+
+        <!-- Suzuki Swift -->
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=400" alt="Suzuki Swift">
+            <div class="card-body">
+                <h3>Suzuki Swift</h3>
+                <p class="specs">2022 • 22,000 km • Mecánico</p>
+                <p class="price">$ 14,200</p>
+                <button class="btn">Reservar Vehículo</button>
+            </div>
+        </div>
+
+        <!-- Nissan Sentra -->
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=400" alt="Nissan Sentra">
+            <div class="card-body">
+                <h3>Nissan Sentra</h3>
+                <p class="specs">2023 • 12,000 km • Automático</p>
+                <p class="price">$ 21,800</p>
+                <button class="btn">Reservar Vehículo</button>
+            </div>
+        </div>
+
+        <!-- Subaru Impreza -->
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwjIIprL5_upTXStEZeh8nox_y2VrWZKUV65YjPC4nxuV9M0x0hZicRBA0&s=10" alt="Subaru Impreza">
+            <div class="card-body">
+                <h3>Subaru Impreza AWD</h3>
+                <p class="specs">2022 • 25,000 km • Automático</p>
+                <p class="price">$ 24,500</p>
+                <button class="btn">Reservar Vehículo</button>
+            </div>
+        </div>
+
+        <!-- Honda Accord -->
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=400" alt="Honda Accord">
+            <div class="card-body">
+                <h3>Honda Accord</h3>
+                <p class="specs">2024 • 0 km • Automático</p>
+                <p class="price">$ 32,000</p>
+                <button class="btn">Reservar Vehículo</button>
+            </div>
+        </div>
+ </section>
+
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2026 AutoDrive - Universidad de Ciencias y Humanidades (UCH)</p>
+    </footer>
+
+</body>
+</html>
